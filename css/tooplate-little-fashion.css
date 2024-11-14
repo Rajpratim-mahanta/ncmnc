@@ -380,6 +380,16 @@ strong {
   position: relative;
 }
 
+.pubp{
+  font-weight: bold;
+}
+.publication-notice{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .navbar .nav-link::after {
   position: absolute;
   top: 100%;
