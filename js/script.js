@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const memberItems = document.querySelectorAll(".member-item");
   
     // Set 'Organizing Committee' as the active filter by default and show only 'executive' members initially
-    const defaultClass = "executive";
+    const defaultClass = "national";
     document.querySelector(`.filter-link[data-class="${defaultClass}"]`).classList.add("active");
     
     // Show only members with the 'executive' class initially
